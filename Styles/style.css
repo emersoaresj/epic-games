@@ -1,0 +1,21 @@
+header{
+    display: flex; /* flex - interativo*/
+    flex-direction: row; /*alinhado em linha */
+    align-items: center;
+    justify-content: space-between;
+
+}
+.navigatorHeader{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.navigatorHeader ul{
+    list-style: none; /*tira o ponto da lista (é um atributo padrao da lista, conseguimos tirar)*/
+    display: flex;
+    flex-direction: row;
+    width: 50vw; /*90 % do NAV que é onde está a classe. (90% do navegador) vw = viewport que vai se acomodar para o tipo de tela*/
+    background-color: aquamarine;
+
+}
